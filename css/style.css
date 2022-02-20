@@ -23,10 +23,6 @@ body {
   background-color: #E8E8E8;
 }
 
-a {
-  color: #f05451;
-  text-decoration: none;
-}
 
 /* -------------------------------- 
 
@@ -340,6 +336,12 @@ a {
   color: #acb7c0;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
+}
+
+a,
+p > a {
+  color: #f05451;
+  text-decoration: none;
 }
 
 img {
