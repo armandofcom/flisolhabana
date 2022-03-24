@@ -108,7 +108,7 @@ a:hover, a:focus, a:active, a:visited {
 
 
 .hero-header {
-	background: linear-gradient(180deg, #004ABC 0%, #095CDB 100%);
+    background: linear-gradient(180deg, #004ABC 0%, #095CDB 100%);
 	min-height: 600px;
 	padding-top: 5em;
 	color: #fff;
@@ -129,7 +129,7 @@ a:hover, a:focus, a:active, a:visited {
 	margin-top: 3em;
 }
 .hero-header .rocket {
-	max-width: 100%;
+	max-width: 245%;
 }
 .me-row {
 	padding: 30px 0;
