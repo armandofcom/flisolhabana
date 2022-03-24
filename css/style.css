@@ -108,9 +108,9 @@ a:hover, a:focus, a:active, a:visited {
 
 
 .hero-header {
-	background: #016cc7;
+	background: linear-gradient(180deg, #004ABC 0%, #095CDB 100%);
 	min-height: 600px;
-	padding: 5em;
+	padding-top: 5em;
 	color: #fff;
 }
 .hero-header h1 {
