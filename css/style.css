@@ -184,11 +184,11 @@ a span.ti-twitter-alt {
 }
 
 .tickets {
-	background-color: #f0eeee;
+	background: linear-gradient(180deg, #004ABC 0%, #095CDB 100%);
 }
 .tickets .price {
 	font-size: 4em;
-	color: #dd5138;
+	color: #FF8E2A;
     font-weight: 100;
 }
 .tickets .price sup {
@@ -239,13 +239,14 @@ ul.footer-menu li a {
     padding-right: 20px;
 }
 ul.footer-menu li a:hover {
-    color: #dd5138;
+    color: #FF8E2A;
 }
 
 
 .contact {
-    background-color: #3a3a3a;
-    color: #fff;
+    background-color: #fff;
+    /* background-color: #3a3a3a; */
+    color: #404142;
     padding: 1em;
 }
 .contact h3 {
@@ -342,5 +343,15 @@ ul.footer-menu li a:hover {
     .speaker .feature {
         width: 49%;
         margin-right: 9px;
+    }
+}
+
+.sponsor {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .sponsor {
+        width: 50%;
     }
 }
